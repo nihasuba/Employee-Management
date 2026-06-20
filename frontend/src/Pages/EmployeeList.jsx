@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import EmployeeModal from '../components/EmployeeModal';
-import DeleteConfirmModal from '../components/DeleteConfirmModal'; 
+import EmployeeModal from '../Components/EmployeeModal';
+import DeleteConfirmModal from '../Components/DeleteConfirmModal'; 
 import { toast } from 'react-toastify';
 
 // const API_URL = 'http://localhost:5000/api/employees';
