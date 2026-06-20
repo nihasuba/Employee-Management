@@ -10,7 +10,13 @@ const app = express();
 connectDB();
 
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
+
+app.use(cors({
+  origin: 'https://employee-management-xy7c.vercel.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 
 app.use("/api/employees", employeeRoutes);
 
