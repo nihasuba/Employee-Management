@@ -156,10 +156,11 @@ export default function EmployeeList() {
                             Edit
                           </button>
                           <button 
+                            onClick={() => openDeletePopup(emp._id)} 
                             className="block w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50 font-medium"
-                          >
+                            >
                             Delete
-                          </button>
+                            </button>
                         </div>
                       )}
 
