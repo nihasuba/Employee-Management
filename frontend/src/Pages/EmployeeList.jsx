@@ -5,7 +5,8 @@ import DeleteConfirmModal from '../Components/DeleteConfirmModal';
 import { toast } from 'react-toastify';
 
 // const API_URL = 'http://localhost:5000/api/employees';
-const API_URL = 'https://employee-management-q87u.vercel.app/api';
+// const API_URL = 'https://employee-management-q87u.vercel.app/api';
+const API_URL = 'https://employee-management-q87u.vercel.app/api/employees';
 
 export default function EmployeeList() {
   const [employees, setEmployees] = useState([]);
